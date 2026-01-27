@@ -55,8 +55,3 @@ A Laravel-based web application providing restaurant discovery, menus, reservati
     - views/
   - storage/
   - vendor/
-
-## Environment variables to check 
-- APP_ENV, APP_URL, APP_KEY
-- DB_CONNECTION, DB_HOST, DB_PORT, DB_DATABASE, DB_USERNAME, DB_PASSWORD
-- MAIL_MAILER, MAIL_HOST, MAIL_PORT, MAIL_USERNAME, MAIL_PASSWORD, MAIL_FROM_ADDRESS
