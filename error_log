@@ -1,0 +1,1 @@
+[15-Jun-2023 08:05:05 UTC] PHP Fatal error:  Trait "Spatie\Sluggable\HasSlug" not found in /home/ihostae/re-served.ae/app/Models/BusinessTypes.php on line 12

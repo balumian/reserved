@@ -1,0 +1,35 @@
+@extends('admin.layouts.app')
+
+@section('content')
+
+<!-- ===============================================-->
+<!--    Main Content-->
+<!-- ===============================================-->
+
+<div class="card mb-3">
+    <div class="card-header">
+        <div class="row flex-between-end">
+            <div class="col-auto align-self-center">
+                <h5 class="mb-0">Add New Customer</h5>
+            </div>
+        </div>
+    </div>
+    <div class="card-body bg-light">
+        <div class="row">
+            <div class="col-lg-8">
+                <form action="{{route('customer.save')}}" method="post" id="admin-add-customer">
+                @csrf
+                    
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ===============================================-->
+<!--    End of Main Content-->
+<!-- ===============================================-->
+@stop

@@ -1,0 +1,27 @@
+.disable-link:hover{
+    text-decoration: none;
+    width: auto;
+}
+/* .notify{
+    z-index: 1 !important;
+    padding-top: 5rem !important;
+}
+.notify > div{
+    margin-top: 2rem;
+}
+.notify div .p-4{
+    padding: 1rem !important;
+} */
+.right-text{
+    text-align: right;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+.min-vh-30{
+    min-height: 30vh !important;
+}
+.error {
+    color: rgb(230, 55, 87);
+    display: block;
+    width: 100%;
+}
