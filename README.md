@@ -5,43 +5,6 @@ A Laravel-based web application providing restaurant discovery, menus, reservati
 
 #### Demo Link: https://re-served.ae
 
-## Prerequisites (Windows)
-- PHP (match composer.json required version; common requirement: PHP >= 8.1)
-- Composer
-- Node.js + npm
-- MySQL / PostgreSQL (or other DB configured in .env)
-- Git (optional)
-
-## How to run (PowerShell)
-1. Clone and open project root (d:\personal).
-2. Install PHP dependencies:
-   ```powershell
-   composer install
-   ```
-3. Copy environment and generate key:
-   ```powershell
-   copy .env.example .env
-   php artisan key:generate
-   ```
-4. Configure `.env` (DB, mail, storage driver, app URL).
-5. Run migrations and optional seeders:
-   ```powershell
-   php artisan migrate
-   php artisan db:seed
-   ```
-6. Install frontend deps and build:
-   ```powershell
-   npm install
-   npm run dev      # for development
-   npm run build    # for production
-   ```
-7. Serve locally:
-   ```powershell
-   php artisan serve
-   ```
-
-
-
 ## Application modules (features)
 - User Authentication & Profiles — register, login, password reset and profile management.
 - Restaurant Listing & Management — create, edit and list restaurants with metadata and hours.
